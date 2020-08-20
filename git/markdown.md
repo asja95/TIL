@@ -57,7 +57,7 @@ print('hello!')
 
 파일이 존재하지 않게 된다. 그래서 상대경로로 설정해주자. 따라서 typora에 다음과 같은 설정을 해보자.
 
-![william](markdown-images/william.jpg)
+![william](../markdown-images/william-1597904494242.jpg)
 
 * 파일 
 * 환경설정
@@ -192,4 +192,13 @@ nothing to commit, working tree clean
 ```
 
 
+
+* 작업한 내용을 커밋 대상 목록에 추가한다.
+
+```bash
+$ git add .  # 현재 디렉토리(하위 디렉토리 포함)
+$ git add a.html  # 특정 파일
+$ git add b.html c.html  # 특정 다수 파일
+$ git add blog/  # 특정 폴더
+```
 
