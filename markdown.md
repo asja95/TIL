@@ -57,7 +57,9 @@ print('hello!')
 
 파일이 존재하지 않게 된다. 그래서 상대경로로 설정해주자. 따라서 typora에 다음과 같은 설정을 해보자.
 
-![william](../markdown-images/william-1597904494242.jpg)
+![william](./markdown-images/william-1597904494242.jpg)
+
+
 
 * 파일 
 * 환경설정
